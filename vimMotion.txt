@@ -1,0 +1,30 @@
+for normal mode
+
+w - move forward at beginning of the word
+b - move backward at beginning of the word
+e - move forward at end of the word
+0 - move to the beginning of the line
+$ - move to the end of the line
+_ - move to the first character of the line
+d - delete line
+d$ - delete from current cursor to the end of the line
+
+
+Other VimVsCommand
+
+shift+h or shift+l  - tab switching
+ctrl + e - file explorer
+fileExplorer open:
+    n - new file
+    r - rename file
+    d -delete file
+    c - copy file
+    p - paste file
+    shift + n - new folder
+
+Integrated Terminal commands 
+ctrl + shift + j - show Terminal
+ctrl + shift + w - kill Terminal
+ctrl + shift + n - new Terminal
+ctrl + shift + a - focus next Terminal
+ctrl + shift + b - focus previous Terminal
