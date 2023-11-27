@@ -42,15 +42,16 @@
 | `#`                                               | Search backward for the current word on the cursor                          |
 | `v + i + {`                                       | Select from `{` to `}` excluding the curly brackets                         |
 | `v + a + {`                                       | Select from `{` to `}` excluding the curly brackets                         |
-
+| `y + i + p` | Copy before new line|
+| `y + a + p` | Copy till new line |
 ### Visual Mode
 
-| Key Combination | Action                                                  |
-| --------------- | ------------------------------------------------------- |
-| `v`             | Enter visual mode                                       |
-| `Shift + v`     | Enter visual line mode                                  |
-| `v + i + w`     | Select the current word                                 |
-| `o`             | Jump back and forth between the selection start and end |
+| Key Combination | Action                  |
+| --------------- | ----------------------- |
+| `v`             | Enter visual mode       |
+| `Shift + v`     | Enter visual line mode  |
+| `v + i + w`     | Select the current word |
+| `o` | Jump back and forth between the selection start and end |
 
 ### Other VimVsCommand
 
