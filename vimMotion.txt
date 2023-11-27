@@ -6,9 +6,26 @@ e - move forward at end of the word
 0 - move to the beginning of the line
 $ - move to the end of the line
 _ - move to the first character of the line
-d - delete line
-d$ - delete from current cursor to the end of the line
 
+
+normal mode + editing
+
+o - insert new line below and enter insert mode
+shift + o - insert new line above and enter insert mode
+d + d -  cut line
+d + $ - delete from current cursor to the end of the line
+c + $ - delete from current cursor to the end of the line and enter insert mode 
+shift + a - cursor enters insert mode at the end of the line
+y + y  - for copy line
+
+p - for paste ( can paste the copied line and cut line)
+
+
+visual mode + editing
+
+v - enter visual mode
+shift + v - enter visual line mode
+v + i + w -select current word
 
 Other VimVsCommand
 
@@ -22,7 +39,9 @@ fileExplorer open:
     p - paste file
     shift + n - new folder
 
+
 Integrated Terminal commands 
+
 ctrl + shift + j - show Terminal
 ctrl + shift + w - kill Terminal
 ctrl + shift + n - new Terminal
